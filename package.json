@@ -1,0 +1,25 @@
+{
+  "name": "cozanet-monitoring",
+  "version": "1.0.0",
+  "description": "Cozanet Monitoring system tracking metrics, health checks, logs, performance, and alerts.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.43.4",
+    "eventemitter3": "^5.0.1",
+    "pino": "^9.1.0",
+    "pino-pretty": "^11.1.0",
+    "uuid": "^9.0.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "@types/uuid": "^9.0.8",
+    "typescript": "^5.4.5"
+  }
+}
